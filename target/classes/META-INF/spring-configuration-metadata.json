@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "bindada.jwt",
+      "type": "com.bindada.util.JwtUtils",
+      "sourceType": "com.bindada.util.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bindada.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.bindada.util.JwtUtils",
+      "defaultValue": 0
+    },
+    {
+      "name": "bindada.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.bindada.util.JwtUtils"
+    },
+    {
+      "name": "bindada.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.bindada.util.JwtUtils"
+    }
+  ],
+  "hints": []
+}
